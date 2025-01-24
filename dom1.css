@@ -1,0 +1,41 @@
+#main{
+    border: 2px solid;
+    height: 25vh;
+    width: 50vw;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    
+}
+#main1{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5vw;
+position: relative;
+top: 35px;
+
+
+}
+#reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+}
+body{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+button:hover {
+    box-shadow: 0 0 40px white;
+    transform: scale(0.5px);
+  }
+#num{
+    font-size: 40px;
+}
+  
+  
